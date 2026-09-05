@@ -18,6 +18,7 @@
     "agent:publishing": "node agents/publishing-scheduling-agent.js",
     "agent:analytics": "node agents/analytics-optimization-agent.js",
     "credentials:setup": "node utils/credential-manager.js setup",
+    "link:youtube": "node scripts/link-youtube.js",
     "lint": "eslint ."
   },
   "dependencies": {
